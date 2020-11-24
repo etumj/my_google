@@ -1,3 +1,16 @@
- {
+* {
+    margin: 0;
+    padding: 0;
     text-align: center;
+}
+
+body {
+    text-align: center;
+  
+}
+
+.secondDiv {
+    position: relative;
+    text-align: center;
+    left: 300px;
 }
