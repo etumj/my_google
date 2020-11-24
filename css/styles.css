@@ -14,3 +14,11 @@ body {
     text-align: center;
     left: 300px;
 }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vw;
+    widith: 100vw;
+
+}
