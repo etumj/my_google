@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    top: 200px;
+    
 }
 /*
 body {
@@ -10,7 +10,9 @@ body {
     justify-content: center;
   
 }
-
+img {
+    margin-top: 200px;
+}
 .secondDiv {
     position: relative;
     text-align: center;
