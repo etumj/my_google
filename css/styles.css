@@ -6,10 +6,11 @@
 
 .gContainer {
     display: flex;
+    height: 100vh;
     align-items: center;
     flex-direction: column;
-    align-self: center;
-    
+    justify-content: center;
+    top: 30%;
 }
 
 
