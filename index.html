@@ -3,38 +3,35 @@
     <head>
         <title>My Google Page</title>
         <link rel="stylesheet" href="css/styles.css">
+        <script src="https://kit.fontawesome.com/548e321662.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
     <div class ="gContainer">
 
         <img class ="main_logo" src = "images/googleMain.png" alt = "main_google_page"/>
-        
-        
-
-         <br>
+        <br>
         <br>
 
-        <form class = "gClass">
+        <div class = "gClass">
             
-            <label for = "search"></label>
-            <span><img src="images/search.png" width="35px"/> </span>
-            <input type ="search" name="google_search"/>
-            <img src ="images/mic.png" width = "35px";/>
-
-        </form>
+            <div><i class="fas fa-search"></i></div>
+            <div class = "search1"> <label for = "search"></label> <input type ="search" name="google_search" class="search"/> </div>
+            <div><i class="fas fa-microphone"></i></div>
+            
+        </div>
                 
         <br>
         <br>
         
         <div class="lowerSearchContainer">
-        <form>
-        <label for = "search_button"> </label>
-        <input type ="button" name="google_search" value="Google Search"/>
+            <form>
+            <label for = "search_button"> </label>
+            <input type ="button" name="google_search" value="Google Search"/>
 
-        <label for = "search_button"> </label>
-        <input type ="button" name="google_search" value="I am Feeling Lucky"/>
-        </form>
+            <label for = "search_button"> </label>
+            <input type ="button" name="google_search" value="I am Feeling Lucky"/>
+            </form>
         </div>
     </div>
     </body>

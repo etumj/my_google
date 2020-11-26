@@ -13,7 +13,25 @@
     top: 30%;
 }
 
+.search, .search:active, .search:focus {
+    display: flex;
+    border: none;
+    flex-grow: 20;
+}
 
+
+.gClass {
+    display: flex;
+    border: outset;
+    border-radius: 8px;
+    justify-content: row;
+    padding: 7px 12px;
+    
+}
+
+.search1 {
+    flex-grow: 20;
+}
 /*
 body {
     text-align: center;
