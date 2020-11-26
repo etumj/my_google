@@ -29,8 +29,20 @@
     
 }
 
+.search:active {
+    border: none;
+}
+
+.search.focus {
+    border: none;
+}
+
 .search1 {
     flex-grow: 20;
+}
+
+input.search:active {
+    border: none;
 }
 /*
 body {
