@@ -28,21 +28,14 @@
     padding: 7px 12px;
     
 }
-
-.search:active {
-    border: none;
+/*
+.search:focus {
+    outline: none;
 }
+*/
 
-.search.focus {
-    border: none;
-}
-
-.search1 {
-    flex-grow: 20;
-}
-
-input.search:active {
-    border: none;
+input.search:focus {
+    outline: none;
 }
 /*
 body {
