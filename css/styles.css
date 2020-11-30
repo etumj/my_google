@@ -48,10 +48,14 @@ body {
 }
 
 .last_buttons:hover {
-    box-shadow: 0 2px 2px 0 rgba(119, 1, 255, 0.24);
+    box-shadow: 0 2px 2px 0 rgba(255, 1, 1, 0.678);
 }
 
 .fas fa-search {
     color: blue;
     font-size: 20px;
+}
+
+#lang_links {
+    font-size: 90%;
 }
